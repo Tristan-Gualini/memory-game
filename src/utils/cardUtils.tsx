@@ -26,3 +26,8 @@ function shuffleArray(array: any[]) {
 
   return array;
 }
+
+// Calculer le temps en fonction du nombre de paires
+export function calculateTimeLimit(numPairs: number) {
+  return numPairs * 5;
+}

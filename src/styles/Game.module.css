@@ -21,3 +21,31 @@ h1 {
   right: 200px;
   z-index: 10;
 }
+
+.timer {
+  color: #f1c40f;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.restartButton {
+  background-color: #f1c40f;
+  color: #303030;
+  font-size: 18px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.restartButton:hover {
+  background-color: #e1b50f;
+}
+
+.restartButton:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px rgba(241, 196, 15, 0.7);
+}
