@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  background-color: #212121;
+  color: white;
+  min-height: calc(100vh - 30px); /* tenir compte du padding-top */
+}

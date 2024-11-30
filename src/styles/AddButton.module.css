@@ -1,0 +1,60 @@
+.addPairTitle {
+  align-items: center;
+  margin-top: 20px;
+}
+
+.addPairContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.pairLabel {
+  font-size: 16px;
+  color: #f1c40f;
+  font-weight: bold;
+}
+
+.pairInputWrapper {
+  display: flex;
+  border: 2px solid #f1c40f;
+  border-radius: 8px;
+  width: 60px;
+  padding: 5px 10px;
+  background-color: #303030;
+}
+
+.pairInputText {
+  background-color: transparent;
+  color: #f1c40f;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  text-align: center;
+  outline: none;
+}
+
+.pairInputText::-webkit-outer-spin-button,
+.pairInputText::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.incrementButton,
+.decrementButton {
+  background-color: #f1c40f;
+  color: #303030;
+  font-size: 18px;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.incrementButton:focus,
+.decrementButton:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px rgba(241, 196, 15, 0.7);
+}

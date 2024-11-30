@@ -1,5 +1,5 @@
-// Card.tsx
 import React from 'react';
+import styles from '../styles/Card.module.css';
 
 interface CardProps {
   id: number;
@@ -11,7 +11,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ id, value, isFlipped, onClick }) => {
   return (
     <div
-      className={`card ${isFlipped ? 'flipped' : ''}`}
+      className={`${styles.card} ${isFlipped ? styles.flipped : ''}`}
       onClick={() => onClick(id)}
     >
       {isFlipped ? value : '❓'}
